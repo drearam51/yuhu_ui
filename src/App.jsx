@@ -25,7 +25,7 @@ export default function App() {
       <Sidebar active={route} onNavigate={setRoute} />
 
       {/* Contenido principal */}
-      <main className="flex-1 p-4 md:p-8 max-w-[1200px] mx-auto">
+      <main className="flex-1 p-4 md:p-8 max-w-[1200px] mx-auto pb-16">
         <h1 className="text-2xl font-bold mb-6">{titles[route]}</h1>
 
         {route === "groups" && <GroupsPage />}

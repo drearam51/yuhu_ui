@@ -1,4 +1,14 @@
 @tailwind base;
+/* FullCalendar custom styles */
+.fc-daygrid-event {
+  font-size: 0.75rem !important; /* text-sm */
+  padding: 2px 4px !important;
+  border-radius: 4px !important;
+}
+.fc .fc-toolbar-title {
+  font-size: 1rem; /* más compacto en móvil */
+}
+
 @tailwind components;
 @tailwind utilities;
 
